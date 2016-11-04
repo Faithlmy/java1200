@@ -2,7 +2,7 @@
  * Java的基础知识（1）
  * 对象：
  * 1、一切都是对象，通过操纵标志符来来引用对象（电视机和遥控）
- * 2、存储到哪里？（P60）
+ * 2、存储到哪里？详见（P60）
  * 3、基本类型：
  * 		boolean  char  byte short int long  float double void
  * 4、包装器类型：
