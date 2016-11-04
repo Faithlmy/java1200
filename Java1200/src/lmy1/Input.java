@@ -46,6 +46,11 @@ public class Input {
 		System.out.println("main中的"+Input.t2);//static定义的变量可以通过类名来调用
 		System.out.println("main中的"+input.t2);//也可以通过新定义的对象去调用它
 		
+		/*查询一些信息*/
+		System.getProperties().list(System.out);
+		System.out.println("Input.main()");
+		System.out.println(System.getProperty("user.name"));
+		System.out.println(System.getProperty("java.library.path"));
 		
 		
 	}
