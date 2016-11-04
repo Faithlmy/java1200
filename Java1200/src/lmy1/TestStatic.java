@@ -7,7 +7,7 @@ public class TestStatic {
 	{
 		
 		TestStatic st1 = new TestStatic();
-		 System.out.println(st1.i++); 
+		 System.out.println(st1.i++);
 		
 	}
 
