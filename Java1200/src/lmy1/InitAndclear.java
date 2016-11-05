@@ -23,12 +23,14 @@ public class InitAndclear {
 			//new Rock();
 			//new Rock2(i);
 		}
-		for(int i = 0; i<10; ++i)
+		for(int j = 0; j<10; ++j)
 		{
-			Tree t = new Tree(i);
+			Tree T = new Tree();
+			Tree t = new Tree(j);
+			
 			t.info();
 			t.info("meng");
-			t.h = 3;
+			
 			
 		}
 		
@@ -72,7 +74,7 @@ class Tree
 	}
 	void info(String s)
 	{
-		System.out.println(s+"  "+"Tree is " + h);
+		System.out.println(s +"  "+"Tree is " + h);
 	}
 }
 
