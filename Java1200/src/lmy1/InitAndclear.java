@@ -21,7 +21,7 @@ class Rock
 {
 	Rock()
 	{
-		System.out.println("Rock");
+		System.out.println("lmy");
 	}
 }
 //带有参数的构造器
