@@ -9,6 +9,9 @@
  *   选择让他返回被的东西， 构造器本身不会返回任何东西，根本没有
  *   选择的余地（new的表达是只是创建了对象，构造器本身并没有任何
  *   返回值）
+ *6、当创创建一个对象的时，也就给此对象分配的存储空间分取一个名字，
+ *	通过引用名字，可以引用所有的对象和方法
+ *7、 
  * */
 
 package lmy1;
@@ -18,8 +21,18 @@ public class InitAndclear {
 		for(int i = 0; i<10; i++)
 		{
 			//new Rock();
-			new Rock2(i);
+			//new Rock2(i);
 		}
+		for(int i = 0; i<10; ++i)
+		{
+			Tree t = new Tree(i);
+			t.info();
+			t.info("meng");
+			t.h = 3;
+			
+		}
+		
+
 	}
 
 }
@@ -39,3 +52,31 @@ class Rock2
 		System.out.println("Rock2"+" " + i );
 	}
 }
+//构造器 和 方法重载
+class Tree
+{
+	int h;
+	Tree()
+	{
+		System.out.println("seeding");
+		h = 0 ;
+	}
+	Tree(int initH)
+	{
+		h = initH;
+		System.out.println("Creating new Tree"+ h );
+	}
+	void info()
+	{
+		System.out.println("Tree is " + h);
+	}
+	void info(String s)
+	{
+		System.out.println(s+"  "+"Tree is " + h);
+	}
+}
+
+
+
+
+
