@@ -11,41 +11,38 @@
  *   返回值）
  *6、当创创建一个对象的时，也就给此对象分配的存储空间分取一个名字，
  *	通过引用名字，可以引用所有的对象和方法
- *7、 
+ *7、当自己没有写构造器的时候，编译器会自动帮自己写一个，一旦自己写了构造器，
+ *	编译器便不会帮助你构造
  * */
 
 package lmy1;
 
 public class InitAndclear {
 	public static void main(String[] args) {
-		for(int i = 0; i<10; i++)
-		{
-			//new Rock();
-			//new Rock2(i);
-		}
-		for(int j = 0; j<10; ++j)
-		{
-			Tree T = new Tree();
-			Tree t = new Tree(j);
-			
-			t.info();
-			t.info("meng");
-			
-			
-		}
 		
-
 	}
-
 }
-//一个带有构造器的类
+
+
+//带有构造器的类
 class Rock
 {
+	public static void main(String[] args) 
+	{
+		for(int i = 0; i<10; i++)
+		{
+			new Rock();
+			new Rock2(i);
+		}
+	}
+	
 	Rock()
 	{
 		System.out.println("lmy");
 	}
 }
+
+
 //带有参数的构造器
 class Rock2
 {
@@ -54,27 +51,53 @@ class Rock2
 		System.out.println("Rock2"+" " + i );
 	}
 }
+
+
 //构造器 和 方法重载
 class Tree
 {
-	int h;
-	Tree()
+	public static void main(String[] args) 
+{
+		for(int j = 0; j<10; ++j)
+		{
+			Tree T = new Tree();
+			Tree t = new Tree(j);
+			
+			t.info();
+			t.info("meng");	
+		}
+}
+
+	
+int h;
+Tree()
+{
+	System.out.println("seeding");
+	h = 0 ;
+}
+Tree(int initH)
+{
+	h = initH;
+	System.out.println("Creating new Tree"+ h );
+}
+void info()
+{
+	System.out.println("Tree is " + h);
+}
+void info(String s)
+{
+	System.out.println(s +"  "+"Tree is " + h);
+}
+}
+
+//this的作用(p125)
+class This
+{
+	public static void main(String[] args)
 	{
-		System.out.println("seeding");
-		h = 0 ;
-	}
-	Tree(int initH)
-	{
-		h = initH;
-		System.out.println("Creating new Tree"+ h );
-	}
-	void info()
-	{
-		System.out.println("Tree is " + h);
-	}
-	void info(String s)
-	{
-		System.out.println(s +"  "+"Tree is " + h);
+		This t1 = new This();
+		This t2 = new This();
+		System.out.println("huahua");
 	}
 }
 
