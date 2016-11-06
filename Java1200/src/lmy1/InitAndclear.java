@@ -64,7 +64,7 @@ class Tree
 			Tree t = new Tree(j);
 			
 			t.info();
-			t.info("meng");	
+			t.info("mengyao");	
 		}
 }
 
