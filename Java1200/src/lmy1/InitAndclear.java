@@ -91,6 +91,9 @@ void info(String s)
 }
 
 //this的作用(p125)
+/*
+ * 方法内部获得当前对象的引用
+ * */
 class This
 {
 	public static void main(String[] args)
