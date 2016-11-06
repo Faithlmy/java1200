@@ -76,6 +76,7 @@ public class Input {
 		System.out.println("lmy中的"+"lmy");
 		System.out.println("lmy中的"+Input.t2);
 		System.out.println("lmy中的"+m.t2);
+	
 	}
 
 

@@ -17,7 +17,8 @@
 
 package lmy1;
 
-public class InitAndclear {
+public  class InitAndclear {
+	
 	public static void main(String[] args) {
 		
 	}
@@ -27,6 +28,7 @@ public class InitAndclear {
 //带有构造器的类
 class Rock
 {
+	String s1 = "lmy";
 	public static void main(String[] args) 
 	{
 		for(int i = 0; i<10; i++)
@@ -93,17 +95,35 @@ void info(String s)
 //this的作用(p125)
 /*
  * 方法内部获得当前对象的引用
+ * 只能在方法内部使用，表示对调用方法的那个对象的引用
+ * 如果在方法内部调用同一个类的另一个方法，就不必用this，直接调用即可
  * */
-class This
+ class Tthis
 {
+	String s1 = new String("mm");
 	public static void main(String[] args)
 	{
-		This t1 = new This();
-		This t2 = new This();
+		String s2 = "meng"; 
+		Tthis t1 = new Tthis();
+		Tthis t2 = new Tthis();
 		System.out.println("huahua");
+		
+		
 	}
-}
+	public class Ap
+	{
+		
+		
+	}
 
+}
+//finalize()(p127)
+ /*
+  * java 的回收机制只是针对于new出来的对象进行回收
+  * finalize()的工作原理：
+  * 	一旦垃圾回收器准备好释放对象占用的内存，首先调用finalize()方法，并在
+  * 	下一次垃圾回收动作发生，才会真正回收对象占用的内存空间
+  * */
 
 
 
