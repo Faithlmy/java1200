@@ -10,4 +10,19 @@ public class Access {
 	}
 
 }
+//public接口访问权限
+class Cookie
+{
+	public static void main(String[] args) {
+		Cookie c = new Cookie();
+	}
+	public Cookie()
+	{
+		System.out.println("Cookie constructor");
+	}
+	void bite()
+	{
+		System.out.println("Cookie.bite()");
+	}
+}
 
