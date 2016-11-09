@@ -8,8 +8,7 @@ import java.util.*;
 
 public class Access {
 	public static void main(String[] args) {
-		ArrayList a = new ArrayList<>();
-		Access b = new Access();
+
 		
 	}
 
