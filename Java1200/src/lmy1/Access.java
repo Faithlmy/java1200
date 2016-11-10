@@ -10,17 +10,19 @@ public class Access {
 	public static void main(String[] args) {
 
 		Access a = new Access();
+	
 		
 	}
 
 }
 //public接口访问权限
 //public之后紧跟着的成员声明自己对每个人都是有用的
-class Cookie
+ class Cookie
 {
 	public static void main(String[] args) {
 		Cookie c = new Cookie();
 		c.bite();
+		
 	}
 	public Cookie()
 	{
