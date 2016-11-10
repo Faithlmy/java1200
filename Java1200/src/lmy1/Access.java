@@ -41,8 +41,3 @@ class sun
 	}
 	
 }
-<<<<<<< HEAD
-//protected处理的是继承 的概念
-=======
-//protected 在继承中应用
->>>>>>> refs/heads/accessBra
