@@ -17,11 +17,12 @@ public class Access {
 }
 //public接口访问权限
 //public之后紧跟着的成员声明自己对每个人都是有用的
-class Cookie
+ class Cookie
 {
 	public static void main(String[] args) {
 		Cookie c = new Cookie();
 		c.bite();
+		
 	}
 	public Cookie()
 	{
@@ -40,4 +41,8 @@ class sun
 	}
 	
 }
+<<<<<<< HEAD
 //protected处理的是继承 的概念
+=======
+//protected 在继承中应用
+>>>>>>> refs/heads/accessBra
