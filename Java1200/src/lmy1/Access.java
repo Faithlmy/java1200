@@ -39,3 +39,4 @@ class sun
 	}
 	
 }
+//protected 在继承中应用
