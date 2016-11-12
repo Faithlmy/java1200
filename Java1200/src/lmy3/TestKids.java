@@ -10,7 +10,7 @@ public class TestKids {
 		someKid.setSalary(0);
 		someKid.setSex(1);
 		someKid.setYearsOld(13);
-		
+
 		someKid.employees();
 		someKid.manorWoman();
 		someKid.printAge();
