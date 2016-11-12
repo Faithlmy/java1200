@@ -1,6 +1,4 @@
 package lmy3;
-
-
 /*
  * 继承性：
  * 1、避免繁琐的同一类型的调用
@@ -20,7 +18,21 @@ package lmy3;
  * 	  子父类的方法名必须同为static或同为非static
  * */
 
+
 public class TestExtends {
+	public static void main(String[] args) {
+		Kids  someKid = new Kids();
+		
+		
+		
+		someKid.setSalary(0);
+		someKid.setSex(1);
+		someKid.setYearsOld(13);
+
+		someKid.employees();
+		someKid.manorWoman();
+		someKid.printAge();
+	}
 
 }
 
