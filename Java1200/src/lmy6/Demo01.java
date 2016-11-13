@@ -33,7 +33,7 @@ public class Demo01 extends JFrame
 				//设置大小,按像素（密度单位，）
 				this.setSize(200, 200);
 				
-				this.add(jb1);
+				//this.add(jb1);
 				
 				//设置初始位置
 				this.setLocation(200, 200);
