@@ -36,7 +36,7 @@ public class Demo01 extends JFrame
 				this.add(jb1);
 				
 				//设置初始位置
-				this.setLocation(100, 200);
+				this.setLocation(200, 200);
 				
 				//设置关闭窗口的时候，保证Jvm退出
 				this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
