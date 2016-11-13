@@ -31,7 +31,7 @@ public class Demo01 extends JFrame
 				this.setTitle("hello");
 				
 				//设置大小,按像素（密度单位，）
-				this.setSize(200, 200);
+				//this.setSize(200, 200);
 				
 				this.add(jb1);
 				
