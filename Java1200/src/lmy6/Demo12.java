@@ -9,7 +9,7 @@
  *d、事件的传到是靠事件对象
  */
 
-package lmy6.www;
+package lmy6;
 
 import java.awt.*;
 import javax.swing.*;

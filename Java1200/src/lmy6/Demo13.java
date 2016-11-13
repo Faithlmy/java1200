@@ -5,7 +5,7 @@
  * 
  * */
 
-package lmy6.www;
+package lmy6;
 
 import java.awt.*;
 import javax.swing.*;

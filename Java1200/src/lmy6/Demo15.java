@@ -2,7 +2,7 @@
  * Thread开发线程
  * */
 
-package lmy6.www;
+package lmy6;
 
 public class Demo15 {
 

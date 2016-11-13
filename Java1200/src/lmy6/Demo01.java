@@ -4,7 +4,7 @@
  * topic:图形界面开发
  * */
 
-package lmy6.www;
+package lmy6;
 
 import java.awt.*;
 import javax.swing.*;

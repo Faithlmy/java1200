@@ -2,7 +2,7 @@
  * 多种布局管理器
  * */
 
-package lmy6.www;
+package lmy6;
 
 import java.awt.*;
 import javax.swing.*;
