@@ -7,7 +7,7 @@ public class OrderA {
 
 }
 class Order1 {
-	private String orderName;
+	private String orderName;//¾­¼Ã
 	int orderId;
 	protected   int orderNum;
 	public String orderDesc;
