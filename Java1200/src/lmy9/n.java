@@ -5,6 +5,7 @@ public class n {
 		System.out.println("n.main()");
 		
 		System.out.println("n.m)");
+		System.out.println("2");
 	}
 
 }
